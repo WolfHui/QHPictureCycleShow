@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70363FB1C93FD1E00184BE4 /* QHPictureShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70363FA1C93FD1E00184BE4 /* QHPictureShowView.m */; };
+		D70363FD1C93FD3F00184BE4 /* QHPictureShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70363FC1C93FD3F00184BE4 /* QHPictureShow.xib */; };
 		D7EBDEEF1C5783A200EC1AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EBDEEE1C5783A200EC1AB1 /* main.m */; };
 		D7EBDEF21C5783A200EC1AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EBDEF11C5783A200EC1AB1 /* AppDelegate.m */; };
 		D7EBDEF51C5783A200EC1AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EBDEF41C5783A200EC1AB1 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D70363F91C93FD1E00184BE4 /* QHPictureShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHPictureShowView.h; sourceTree = "<group>"; };
+		D70363FA1C93FD1E00184BE4 /* QHPictureShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHPictureShowView.m; sourceTree = "<group>"; };
+		D70363FC1C93FD3F00184BE4 /* QHPictureShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHPictureShow.xib; sourceTree = "<group>"; };
 		D7EBDEEA1C5783A200EC1AB1 /* QHPictureCycleShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHPictureCycleShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EBDEEE1C5783A200EC1AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7EBDEF01C5783A200EC1AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 				D7EBDEFB1C5783A200EC1AB1 /* LaunchScreen.storyboard */,
 				D7EBDEFE1C5783A200EC1AB1 /* Info.plist */,
 				D7EBDEED1C5783A200EC1AB1 /* Supporting Files */,
+				D70363F91C93FD1E00184BE4 /* QHPictureShowView.h */,
+				D70363FA1C93FD1E00184BE4 /* QHPictureShowView.m */,
+				D70363FC1C93FD3F00184BE4 /* QHPictureShow.xib */,
 			);
 			path = "UIScrollView的使用";
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70363FD1C93FD3F00184BE4 /* QHPictureShow.xib in Resources */,
 				D7EBDEFD1C5783A200EC1AB1 /* LaunchScreen.storyboard in Resources */,
 				D7EBDEFA1C5783A200EC1AB1 /* Assets.xcassets in Resources */,
 				D7EBDEF81C5783A200EC1AB1 /* Main.storyboard in Resources */,
@@ -152,6 +161,7 @@
 				D7EBDEF51C5783A200EC1AB1 /* ViewController.m in Sources */,
 				D7EBDEF21C5783A200EC1AB1 /* AppDelegate.m in Sources */,
 				D7EBDEEF1C5783A200EC1AB1 /* main.m in Sources */,
+				D70363FB1C93FD1E00184BE4 /* QHPictureShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

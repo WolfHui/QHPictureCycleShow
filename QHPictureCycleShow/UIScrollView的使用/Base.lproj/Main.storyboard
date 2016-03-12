@@ -16,24 +16,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V1T-Ux-Bje">
-                                <rect key="frame" x="37" y="109" width="300" height="130"/>
-                                <color key="backgroundColor" red="0.3099163493" green="1" blue="0.37348613549999998" alpha="1" colorSpace="calibratedRGB"/>
-                            </scrollView>
-                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="8mg-tq-Ttc">
-                                <rect key="frame" x="250" y="200" width="39" height="37"/>
-                                <color key="pageIndicatorTintColor" red="0.3099163493" green="1" blue="0.37348613549999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="currentPageIndicatorTintColor" red="1" green="0.1345809999" blue="0.33781310390000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </pageControl>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="pageControl" destination="8mg-tq-Ttc" id="alt-5j-e82"/>
-                        <outlet property="scrollView" destination="V1T-Ux-Bje" id="Lfk-og-TUD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
